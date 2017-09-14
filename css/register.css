@@ -1,0 +1,42 @@
+div.login-boxtitle{
+    width:1000px;
+    margin:10px auto;
+}
+div.register-banner{
+    width:100%;
+    height:430px;
+    background-color:#fd7a72;
+}
+div.register-main{
+    width:1000px;
+    margin:10px auto;
+    position:relative;
+}
+.modal{
+    width:400px;
+    background:#F8F8F8;
+    position:absolute;
+    top:90px;
+    right:10px;
+    padding:5px 10px;
+}
+.modal h4{
+    text-align:center;
+    padding-top:15px;
+    margin-bottom: 10px;font-size:16px;
+}
+/*.modal p{*/
+/*line-height:20px;*/
+/*}*/
+input{
+    width:200px;
+    height:30px;
+    margin-bottom:10px;
+    border-radius:3px;
+    border:none;
+}
+#bt-register{
+    width:200px;
+    height:30px;
+    margin-bottom:20px;
+}

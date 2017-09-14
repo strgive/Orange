@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>登录</title>
+  <link rel="stylesheet" href="css/login.css"/>
+  <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<!--logo-->
+<div class="login-boxtitle">
+  <a href="index.html"><img alt="logo" src="images/logobig.png" /></a>
+</div>
+<!--登录部分-->
+<div class="login-banner">
+  <div class="login-main">
+    <img src="images/big.jpg" alt=""/>
+    <!--模态登录对话框-->
+    <div class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <h4>登录商城</h4>
+          <p class="alert">
+            请在此处输入您的登录信息。
+          </p>
+          <form id="login-form">
+            <input type="text" placeholder="请输入登录用户名" name="uname" id="uname" value="dongdong">
+            <input type="password" placeholder="请输入登录密码" name="upwd" id="upwd" value="123456">
+            <input type="button" value="登录" id="bt-login">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer"></div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/productlist.js"></script>
+
+</body>
+
+</html>

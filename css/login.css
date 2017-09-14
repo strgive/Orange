@@ -1,0 +1,50 @@
+div.login-boxtitle{
+    width:1000px;
+    margin:10px auto;
+}
+div.login-banner{
+    width:100%;
+    height:430px;
+    background-color:#fd7a72;
+}
+div.login-main{
+    width:1000px;
+    margin:10px auto;
+    position:relative;
+}
+/*模态框样式*/
+.modal-dialog {
+    width: 370px;
+    position:absolute;
+    top:50px;
+    right:10px;
+}
+.modal-content {
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #aaa;
+    padding: 16px 12px;
+}
+.modal-content h4 {
+    font-size: 1.5em;
+    text-align:center;
+}
+.modal-content .alert {
+    margin: 15px 0;
+    border: 1px solid #e4393c;
+    background: #fee;
+    color: #e4393c;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 2px;
+}
+.modal-content input {
+    box-sizing: border-box; /*总宽=width+margin*/
+    width: 100%;
+    margin: 6px 0;
+    line-height: 2em;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    padding: 2px 6px;
+}
